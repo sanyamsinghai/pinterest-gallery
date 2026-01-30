@@ -1,0 +1,82 @@
+[
+  {
+    "id": "1",
+    "imageUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800",
+    "title": "Mountain Sunrise",
+    "description": "A breathtaking view of the mountains at sunrise, with golden light painting the peaks and valleys in warm hues.",
+    "tags": ["nature", "mountains", "sunrise", "landscape"],
+    "category": "Nature",
+    "width": 800,
+    "height": 1200
+  },
+  {
+    "id": "2",
+    "imageUrl": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=800",
+    "title": "Misty Forest Path",
+    "description": "A serene forest trail covered in morning mist, creating an ethereal and peaceful atmosphere.",
+    "tags": ["forest", "nature", "path", "mist"],
+    "category": "Nature",
+    "width": 800,
+    "height": 1000
+  },
+  {
+    "id": "3",
+    "imageUrl": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800",
+    "title": "Tropical Paradise",
+    "description": "Crystal clear turquoise waters meeting pristine white sand beaches under a perfect blue sky.",
+    "tags": ["beach", "ocean", "tropical", "paradise"],
+    "category": "Nature",
+    "width": 800,
+    "height": 533
+  },
+  {
+    "id": "4",
+    "imageUrl": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=800",
+    "title": "Aurora Reflection",
+    "description": "The magical northern lights dancing across the sky, perfectly reflected in still mountain waters.",
+    "tags": ["aurora", "night", "reflection", "landscape"],
+    "category": "Nature",
+    "width": 800,
+    "height": 1200
+  },
+  {
+    "id": "5",
+    "imageUrl": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=800",
+    "title": "Golden Hour Valley",
+    "description": "A vast valley bathed in golden hour light, showcasing the beauty of untouched wilderness.",
+    "tags": ["valley", "golden hour", "landscape", "wilderness"],
+    "category": "Nature",
+    "width": 800,
+    "height": 600
+  },
+  {
+    "id": "6",
+    "imageUrl": "https://images.unsplash.com/photo-1426604966848-d7adac402bff?w=800",
+    "title": "Alpine Meadow",
+    "description": "Wildflowers blooming in an alpine meadow with majestic mountain peaks in the background.",
+    "tags": ["alpine", "flowers", "meadow", "mountains"],
+    "category": "Nature",
+    "width": 800,
+    "height": 1100
+  },
+  {
+    "id": "7",
+    "imageUrl": "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?w=800",
+    "title": "Desert Sunset",
+    "description": "Dramatic clouds painted in vibrant colors during sunset over a serene desert landscape.",
+    "tags": ["desert", "sunset", "clouds", "landscape"],
+    "category": "Nature",
+    "width": 800,
+    "height": 533
+  },
+  {
+    "id": "8",
+    "imageUrl": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=800",
+    "title": "Mountain Lake",
+    "description": "A pristine alpine lake surrounded by towering mountains, reflecting the sky like a mirror.",
+    "tags": ["lake", "mountains", "reflection", "alpine"],
+    "category": "Nature",
+    "width": 800,
+    "height": 1000
+  }
+]
