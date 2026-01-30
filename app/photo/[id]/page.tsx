@@ -1,3 +1,4 @@
+export const dynamic = "force-dynamic";
 import { Metadata } from 'next'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
@@ -5,11 +6,11 @@ import imagesData from '@/data/images.json'
 import Link from 'next/link'
 
 // Generate static params for all images
-export async function generateStaticParams() {
-  return imagesData.map((image) => ({
-    id: image.id,
-  }))
-}
+// export async function generateStaticParams() {
+//   return imagesData.map((image) => ({
+//     id: image.id,
+//   }))
+// }
 
 // Generate metadata for SEO
 export async function generateMetadata({
