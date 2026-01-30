@@ -7,8 +7,10 @@ export const metadata: Metadata = {
     default: "Photo Gallery - Stunning Photography Collection",
     template: "%s | Photo Gallery",
   },
+
   description:
     "Discover stunning photography from around the world. Browse our curated collection of nature, landscape, and artistic photography.",
+
   keywords: [
     "photography",
     "gallery",
@@ -17,6 +19,7 @@ export const metadata: Metadata = {
     "landscape",
     "art",
   ],
+
   authors: [{ name: "Photo Gallery" }],
   creator: "Photo Gallery",
 
@@ -53,17 +56,14 @@ export const metadata: Metadata = {
   robots: {
     index: true,
     follow: true,
-    googleBot: {
-      index: true,
-      follow: true,
-      "max-video-preview": -1,
-      "max-image-preview": "large",
-      "max-snippet": -1,
-    },
   },
 
   verification: {
     google: "your-google-verification-code",
+  },
+
+  other: {
+    "p:domain_verify": "ef4c207be8020ca2fc6a82b549e4ced8",
   },
 };
 
