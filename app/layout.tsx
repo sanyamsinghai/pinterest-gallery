@@ -57,7 +57,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <link rel="icon" href="/favicon.ico" />
-        <meta name="pinterest" content="nopin" description="This site is not affiliated with Pinterest" />
+        <meta name="pinterest" content="nopin" />
       </head>
       <body className="antialiased">{children}</body>
     </html>
