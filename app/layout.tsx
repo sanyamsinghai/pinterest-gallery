@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://yourdomain.com",
+    url: "https://pinterest-gallery.vercel.app/",
     siteName: "Photo Gallery",
     title: "Photo Gallery - Stunning Photography Collection",
     description: "Discover stunning photography from around the world.",
