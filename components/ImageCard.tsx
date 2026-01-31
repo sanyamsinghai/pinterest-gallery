@@ -55,7 +55,7 @@ export default function ImageCard({
       href={pinterestUrl}
       target="_blank"
       rel="noopener noreferrer"
-      className="block mb-4"   {/* spacing for masonry */}
+      className="block mb-4"   /* spacing for masonry */
     >
       <div
         ref={imgRef}
