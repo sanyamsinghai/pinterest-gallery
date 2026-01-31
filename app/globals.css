@@ -117,3 +117,6 @@ a {
     padding: 0 1rem;
   }
 }
+.break-inside-avoid {
+  break-inside: avoid;
+}
