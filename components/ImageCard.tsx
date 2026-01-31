@@ -42,7 +42,7 @@ export default function ImageCard({
 
   // Pinterest Pin Creator URL with link to your profile in description
   const siteUrl = 'https://pinterest-gallery.vercel.app'
-  const descriptionWithProfile = `${title} - ${description} | Follow me on Pinterest: https://in.pinterest.com/sanyamaethere/_created/`
+  const descriptionWithProfile = `${title} - ${description} | Follow me on Pinterest: https://in.pinterest.com/sanyamaethere/`
   const pinterestUrl = `https://pinterest.com/pin/create/button/?url=${encodeURIComponent(siteUrl + '/photo/' + id)}&media=${encodeURIComponent(imageUrl)}&description=${encodeURIComponent(descriptionWithProfile)}`
 
   return (
