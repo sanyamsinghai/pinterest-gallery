@@ -1,13 +1,13 @@
 [
   {
     "id": "1",
-    "imageUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800",
-    "title": "Mountain Sunrise",
-    "description": "A breathtaking view of the mountains at sunrise, with golden light painting the peaks and valleys in warm hues.",
-    "tags": ["nature", "mountains", "sunrise", "landscape"],
-    "category": "Nature",
-    "width": 800,
-    "height": 1200
+    "imageUrl": "https://res.cloudinary.com/dsefc9eyf/image/upload/v1769830052/IMG_5238_lnygry.jpg",
+    "title": "Rohit Sharma Cricket Stadium Moment - Indian Cricket Team Jersey Number 45",
+    "description": "Iconic cricket moment capturing Rohit Sharma wearing the Indian cricket team's blue jersey with number 45 at a packed stadium. This powerful sports photography showcases the atmosphere of international cricket, perfect for cricket fans, sports enthusiasts, and those who love the energy of live sporting events. Great inspiration for cricket photography and stadium sports moments.",
+    "tags": ["cricket", "rohit sharma", "sports photography", "indian cricket", "cricket stadium", "sports moment", "team india", "cricket jersey", "stadium photography", "sports inspiration"],
+    "category": "Sports",
+    "width": 1000,
+    "height": 1250
   },
   {
     "id": "2",
