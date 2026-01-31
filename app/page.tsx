@@ -23,8 +23,10 @@ export default function Home() {
         </section>
 
         {/* Gallery Section */}
-        <section className="pb-16">
-          <MasonryGrid images={imagesData} />
+        <section className="pb-16 px-4 sm:px-6 lg:px-10">
+          <div className="max-w-7xl mx-auto">
+            <MasonryGrid images={imagesData} />
+          </div>
         </section>
 
         {/* About Section */}
