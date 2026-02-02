@@ -2,6 +2,11 @@ import './globals.css'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 
+export const metadata = {
+  title: 'Photo Gallery',
+  description: 'A curated collection of stunning photography',
+}
+
 export default function RootLayout({
   children,
 }: {
@@ -12,12 +17,10 @@ export default function RootLayout({
       <body className="flex min-h-screen flex-col">
         <Header />
 
-        {/* Page content grows */}
         <main className="flex-1">
           {children}
         </main>
 
-        {/* Footer always visible */}
         <Footer />
       </body>
     </html>
