@@ -1,4 +1,4 @@
-import { createClient } from 'next-sanity'
+import { createClient } from '@sanity/client'
 import { apiVersion, dataset, projectId } from '../env'
 
 export const client = createClient({
@@ -10,7 +10,7 @@ export const client = createClient({
 
 export async function getPhotos() {
   return await client.fetch(
-    `*[_type == "photo"] | order(publishedAt desc){
+    `*[_type == "photo"] | order(coalesce(publishedAt, _createdAt) desc){
       _id,
       title,
       description,
@@ -18,8 +18,6 @@ export async function getPhotos() {
       "imageUrl": image.asset->url,
       "width": image.asset->metadata.dimensions.width,
       "height": image.asset->metadata.dimensions.height
-    }`,
-    {},
-    { cache: 'no-store' }
+    }`
   )
 }
