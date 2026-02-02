@@ -1,38 +1,29 @@
-import Header from '@/components/Header'
-import Footer from '@/components/Footer'
 import MasonryGrid from '@/components/MasonryGrid'
 import { getPhotos } from '@/sanity/lib/client'
-
-export const dynamic = 'force-dynamic'
-
 
 export default async function Home() {
   const images = await getPhotos()
 
   return (
     <>
-      <Header />
+      {/* Hero Section */}
+      <section className="pt-32 pb-16 px-4">
+        <div className="container-custom text-center">
+          <h1 className="text-5xl md:text-7xl font-bold mb-6">
+            Discover Beauty
+          </h1>
+          <p className="text-lg max-w-2xl mx-auto">
+            A curated collection of stunning photography.
+          </p>
+        </div>
+      </section>
 
-      <main className="min-h-screen">
-        {/* Hero Section */}
-        <section className="pt-32 pb-16 px-4">
-          <div className="container-custom text-center">
-            <h1 className="text-5xl md:text-7xl font-bold mb-6">
-              Discover Beauty
-            </h1>
-            <p className="text-lg max-w-2xl mx-auto">
-              A curated collection of stunning photography.
-            </p>
-          </div>
-        </section>
+      {/* Gallery */}
+      <section className="pb-16 px-6 md:px-10 lg:px-16">
+        <MasonryGrid images={images} />
+      </section>
 
-        {/* Gallery */}
-        <section className="pb-16 px-6 md:px-10 lg:px-16">
-          <MasonryGrid images={images} />
-        </section>
-      </main>
-
-      <Footer />
+      {/* About / Ads section can stay here */}
     </>
   )
 }
